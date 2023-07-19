@@ -1,11 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -24,13 +16,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+
 }
 
 /*--------------------------------------------------------------
@@ -286,13 +278,21 @@ h6 {
   display: flex;
 }
 
+/* Estilo para el título h1 */
+
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 20px;
   font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
-  color: #fff;
+  line-height: 1.2;
+  color: black;
+
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
+
+
 
 #hero p {
   color: #fff;
@@ -913,14 +913,6 @@ body {
   min-width: 300px;
 }
 
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
-}
-
 #hero p {
   color: #fff;
   margin-bottom: 50px;
@@ -940,3 +932,56 @@ body {
 }
 
 
+/* Estilos para el formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+/* Agregar espacio entre el campo "Asunto" y "Mensaje" */
+.form-control[name="subject"],
+.form-control[name="message"] {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.text-center {
+  text-align: center;
+}
