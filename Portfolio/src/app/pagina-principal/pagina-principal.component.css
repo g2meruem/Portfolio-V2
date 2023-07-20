@@ -38,7 +38,8 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 190px;
+  height: 140px;
   border: 8px solid #2c2f3f;
 }
 
@@ -110,22 +111,6 @@ h6 {
 .container-fluid {
   padding-left: 30px;
   padding-right: 30px;
-}
-
-@media (max-width: 1199px) {
-  #header {
-    left: -300px;
-  }
-
-  #main {
-    margin-left: 0;
-  }
-
-  .container,
-  .container-fluid {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
 }
 
 .nav-menu {
@@ -247,24 +232,6 @@ h6 {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -566,41 +533,6 @@ section {
 .contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
-}
-
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
 }
 body {
   margin: 0;
