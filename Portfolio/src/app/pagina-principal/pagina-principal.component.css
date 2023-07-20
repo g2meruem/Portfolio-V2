@@ -192,13 +192,6 @@ h6 {
 }
 
 
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("/Portfolio/src/assets/img/hero-bg.jpg") top center;
-  background-size: cover;
-
-}
 
 #hero:before {
   content: "";
@@ -552,7 +545,6 @@ body {
 #hero {
   width: calc(100% - 300px); /* Resta el ancho del header para ajustar el ancho del hero */
   height: 100vh;
-  background: url("/assets/img/hero-bg.jpg") top center / cover no-repeat;
   position: absolute;
   top: 0;
   left: 300px; /* Ajusta la posición horizontal del hero al lado del header */
