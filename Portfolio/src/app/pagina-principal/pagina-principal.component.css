@@ -579,7 +579,12 @@ body {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
-
+@media (max-width: 767px) {
+  #hero {
+    background-size: contain;
+    background-position: center;
+  }
+}
 #about {
   margin-top: 1000px; /* Ajusta el valor según el espacio deseado */
 }
@@ -659,4 +664,11 @@ textarea.form-control {
 .btn:disabled {
   opacity: 0.65;
   pointer-events: none;
+}
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 12vw; /* Ajusta el tamaño del texto al 12% del ancho de la ventana */
+    bottom: 30px;
+    left: 30px;
+  }
 }
