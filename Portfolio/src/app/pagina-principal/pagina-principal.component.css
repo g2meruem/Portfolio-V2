@@ -104,7 +104,7 @@ h6 {
   box-sizing: border-box;
 }
 #main {
-  margin-left: 300px;
+  padding: 0;
 }
 
 .container,
@@ -232,6 +232,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+
 }
 
 .section-bg {
@@ -269,10 +270,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
+
 }
 
 .about .content ul {
@@ -671,4 +674,7 @@ textarea.form-control {
     bottom: 30px;
     left: 30px;
   }
+}
+#about , #skills , #resume , #contact{
+  margin-left: 300px;
 }

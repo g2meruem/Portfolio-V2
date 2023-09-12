@@ -1,3 +1,24 @@
+import 'intersection-observer';
+// Función para activar las animaciones al cargar la página
+function activateAnimations() {
+  const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active'); // Agrega la clase para activar la animación
+        observer.unobserve(entry.target); // Deja de observar el elemento una vez que se activa la animación
+      }
+    });
+  });
+
+  elementsToAnimate.forEach((element) => {
+    observer.observe(element);
+  });
+}
+
+// Llama a la función para activar las animaciones cuando la página esté completamente cargada
+window.addEventListener('load', activateAnimations);
 
 (function() {
   "use strict";

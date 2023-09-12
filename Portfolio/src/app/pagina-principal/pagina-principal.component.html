@@ -4,19 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Portfolio Gastón	Toranzo</title>
-
-  <style>
-
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("assets/img/hero-bg.jpg") top center !important;
-  background-size: 100% auto;
-
-}
-  </style>
+  <title>Portfolio Gastón Toranzo</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,7 +13,9 @@
   <link href="/Portfolio/src/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="/Portfolio/src/assets/vendor/aos/aos.css" rel="stylesheet">
@@ -37,129 +27,142 @@
 
   <!-- Template Main CSS File -->
   <link href="pagina-principal.component.css" rel="stylesheet">
+  <link rel="stylesheet" href="/Portfolio/src/assets/scroll-animations.css">
 
 </head>
 
 <body>
   <!-- ======= Header ======= -->
   <div class="container">
-  <header id="header">
-    <div class="d-flex flex-column">
+    <header id="header">
+      <div class="d-flex flex-column">
 
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="xd" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Gastón Toranzo</a></h1>
-        <!-- <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div> -->
+        <div class="profile">
+          <img src="assets/img/profile-img.jpg" alt="xd" class="img-fluid rounded-circle">
+          <h1 class="text-light"><a href="index.html">Gastón Toranzo</a></h1>
+          <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/gaston-toranzo-85a495237/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+            <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre mi</span></a></li>
+            <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumen</span></a>
+            </li>
+            <!-- <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
+            <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li> -->
+            <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a>
+            </li>
+          </ul>
+        </nav><!-- .nav-menu -->
+      </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Gastón Toranzo</h1>
+        <p><span class="typed" data-typed-items="Desarrollador Front-End Angular"></span></p>
       </div>
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre mi</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumen</span></a></li>
-          <!-- <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
-          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li> -->
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <
-    <div class="hero-container" data-aos="fade-in">
-
-      <h1>Gastón Toranzo</h1>
-      <p><span class="typed" data-typed-items="Desarrollador Front-End Angular"></span></p>
-    </div>
-
-  </section><!-- End Hero -->
-</div>
+    </section><!-- End Hero -->
+  </div>
 
   <main id="main">
-
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about animate-on-scroll fade-in">
       <div class="container">
 
         <div class="section-title">
           <h2>Sobre mí</h2>
-          <p>¡Hola! Soy Gastón Toranzo, un desarrollador JR de Angular. He trabajado en 3 proyectos hasta ahora: 2 como freelance y 1 en relación de dependencia. Apasionado por la programación y siempre en busca de nuevos desafíos.
-            Mi pasión por la programación comenzó durante mis estudios y, desde entonces, no he dejado de crecer y mejorar. Angular me ha cautivado por su enfoque en la creación de aplicaciones robustas y dinámicas, y me siento emocionado de formar parte del futuro de la web.
-            Además de la programación, disfruto explorar las últimas tendencias tecnológicas y mantenerme actualizado sobre las novedades del mundo del desarrollo. Creo firmemente en el aprendizaje continuo como la clave para mantenerse relevante en una industria en constante evolución.
+          <p>¡Hola! Soy Gastón Toranzo, un desarrollador JR de Angular. He trabajado en 3 proyectos hasta ahora: 2 como
+            freelance y 1 en relación de dependencia. Apasionado por la programación y siempre en busca de nuevos
+            desafíos.
+            Mi pasión por la programación comenzó durante mis estudios y, desde entonces, no he dejado de crecer y
+            mejorar. Angular me ha cautivado por su enfoque en la creación de aplicaciones robustas y dinámicas, y me
+            siento emocionado de formar parte del futuro de la web.
+            Además de la programación, disfruto explorar las últimas tendencias tecnológicas y mantenerme actualizado
+            sobre las novedades del mundo del desarrollo. Creo firmemente en el aprendizaje continuo como la clave para
+            mantenerse relevante en una industria en constante evolución.
           </p>
         </div>
       </div>
     </section><!-- End About Section -->
 
 
-<!-- ======= Skills Section ======= -->
-<section id="skills" class="skills section-bg">
-  <div class="container">
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg animate-on-scroll slide-up">
+      <div class="container">
 
-    <div class="section-title">
-      <h2>Skills</h2>
-      <p>Como desarrollador JR de Angular, he adquirido un conjunto de habilidades que me permite crear aplicaciones web dinámicas y funcionales. A continuación, encontrarás una lista de las principales competencias en las que me destaco y que utilizo para enfrentar cada proyecto con pasión y dedicación.</p>
-    </div>
-
-    <div class="row skills-content">
-
-      <div class="col-lg-6" data-aos="fade-up">
-
-        <div class="progress">
-          <span class="skill">HTML <i class="val">80%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-          </div>
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Como desarrollador JR de Angular, he adquirido un conjunto de habilidades que me permite crear aplicaciones
+            web dinámicas y funcionales. A continuación, encontrarás una lista de las principales competencias en las
+            que me destaco y que utilizo para enfrentar cada proyecto con pasión y dedicación.</p>
         </div>
 
-        <div class="progress">
-          <span class="skill">CSS <i class="val">70%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-          </div>
-        </div>
+        <div class="row skills-content">
 
-        <div class="progress">
-          <span class="skill">TypeScript <i class="val">45%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
-          </div>
-        </div>
+          <div class="col-lg-6" data-aos="fade-up">
 
+            <div class="progress">
+              <span class="skill">HTML <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 70%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">TypeScript <i class="val">45%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 45%;"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="progress">
+              <span class="skill">Firebase <i class="val">20%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 20%;"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
-
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="progress">
-          <span class="skill">Firebase <i class="val">20%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- End Skills Section -->
+    </section>
+    <!-- End Skills Section -->
 
 
     <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <section id="resume" class="resume animate-on-scroll fade-in">
       <div class="container">
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Mis proyectos</h3>
             <div class="resume-item pb-0">
               <h4>Nascosto Caffé</h4>
-              <p><em>Desarrollé la página web estática para el café Nascosto, con un enfoque en el diseño responsive para asegurar una experiencia óptima en distintos dispositivos. Implementé un menú editable mediante un visualizador de PDF, permitiendo a los usuarios ver un documento subido en la nube de Drive. Además, incorporé la ubicación del café en un mapa interactivo utilizando la API opensource OpenStreetMap para facilitar la navegación de los clientes.</em></p>
+              <p><em>Desarrollé la página web estática para el café Nascosto, con un enfoque en el diseño responsive
+                  para asegurar una experiencia óptima en distintos dispositivos. Implementé un menú editable mediante
+                  un visualizador de PDF, permitiendo a los usuarios ver un documento subido en la nube de Drive.
+                  Además, incorporé la ubicación del café en un mapa interactivo utilizando la API opensource
+                  OpenStreetMap para facilitar la navegación de los clientes.</em></p>
               <ul>
                 <li>Ciudad Autonoma de Buenos Aires</li>
                 <li><a href="https://g2meruem.github.io/Caffe_NascostoV2/" target="_blank">Link del deploy</a></li>
@@ -168,11 +171,13 @@
 
             <div class="resume-item pb-0">
               <h4>Smart Power</h4>
-              <p><em>Desarrollé el sitio web estático para smartpower con un diseño responsive y estilizado. Implementé un formulario de contacto interactivo utilizando JavaScript para mejorar la experiencia del usuario al comunicarse con la empresa.</em></p>
+              <p><em>Desarrollé el sitio web estático para smartpower con un diseño responsive y estilizado. Implementé
+                  un formulario de contacto interactivo utilizando JavaScript para mejorar la experiencia del usuario al
+                  comunicarse con la empresa.</em></p>
               <ul>
                 <li>Ciudad Autonoma de Buenos Aires</li>
                 <li><a href="https://g2meruem.github.io/Smart_Power/" target="_blank">Link del deploy</a>
-              </li>
+                </li>
               </ul>
             </div>
 
@@ -186,13 +191,14 @@
 
             </div>
             <div class="resume-item">
-              <h4>BA Multiplica  2.0 &amp; Front End Developer</h4>
+              <h4>BA Multiplica 2.0 &amp; Front End Developer</h4>
               <h5>2022</h5>
               <p><em>UTN BA , BA JOVEN, .UBA Psicología , AR</em></p>
               <p>Completé satisfactoriamente el curso de BA MULTIPLICA 2.0 en el mes de diciembre de 2022
                 acreditando 56 horas de formación en Programación Web - Front End Developer, Gestión de
                 proyectos e Inteligencia Emocional.</p>
-                <a href="https://drive.google.com/file/d/1uznviP-YpcBkydJkofd67KpwdqxNEBsy/view?usp=sharing" target="_blank">Link del certificado</a>
+              <a href="https://drive.google.com/file/d/1uznviP-YpcBkydJkofd67KpwdqxNEBsy/view?usp=sharing"
+                target="_blank">Link del certificado</a>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -202,7 +208,12 @@
               <h5>FEBRERO 2022 - OCTUBRE 2022</h5>
               <p><em> CABA , Argentina </em></p>
               <ul>
-                <li>Durante 6 meses, tuve el privilegio de formar parte del emocionante proyecto junto a la consultora 'Iceberg Consultores' donde trabajamos en el desarrollo de un sitio web para un buffet de abogados. Mi rol en el equipo me permitió ser capacitado en el framework de Angular, lo que me permitió contribuir de manera significativa al diseño y desarrollo de la plataforma. Fue una experiencia enriquecedora donde pude aplicar mis habilidades y conocimientos para crear una solución web efectiva y funcional para el buffet de abogados.</li>
+                <li>Durante 6 meses, tuve el privilegio de formar parte del emocionante proyecto junto a la consultora
+                  'Iceberg Consultores' donde trabajamos en el desarrollo de un sitio web para un buffet de abogados. Mi
+                  rol en el equipo me permitió ser capacitado en el framework de Angular, lo que me permitió contribuir
+                  de manera significativa al diseño y desarrollo de la plataforma. Fue una experiencia enriquecedora
+                  donde pude aplicar mis habilidades y conocimientos para crear una solución web efectiva y funcional
+                  para el buffet de abogados.</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -210,11 +221,19 @@
               <h5>2016 - 2022</h5>
               <p><em>Buenos Aires , Argentina</em></p>
               <ul>
-                <li>Como profesional freelance en el área de soporte técnico, he tenido la oportunidad de brindar soluciones integrales para una amplia gama de incidentes informáticos. Mi experiencia abarca desde la resolución de problemas de software, optimización y limpieza de malware, hasta el mantenimiento y reparación de hardware, incluyendo armado y mantenimiento de PCs y notebooks.
+                <li>Como profesional freelance en el área de soporte técnico, he tenido la oportunidad de brindar
+                  soluciones integrales para una amplia gama de incidentes informáticos. Mi experiencia abarca desde la
+                  resolución de problemas de software, optimización y limpieza de malware, hasta el mantenimiento y
+                  reparación de hardware, incluyendo armado y mantenimiento de PCs y notebooks.
 
-                  Durante mi tiempo como soporte técnico freelance, he adquirido habilidades sólidas y conocimientos profundos para ofrecer un servicio eficiente y efectivo. Cada día, mi pasión por resolver desafíos tecnológicos y ayudar a los clientes a superar sus problemas informáticos me motiva a seguir aprendiendo y mejorando en mi campo.
+                  Durante mi tiempo como soporte técnico freelance, he adquirido habilidades sólidas y conocimientos
+                  profundos para ofrecer un servicio eficiente y efectivo. Cada día, mi pasión por resolver desafíos
+                  tecnológicos y ayudar a los clientes a superar sus problemas informáticos me motiva a seguir
+                  aprendiendo y mejorando en mi campo.
 
-                  Estoy comprometido en ofrecer soluciones personalizadas y orientadas al cliente, brindando un servicio profesional y confiable. Mi objetivo es proporcionar a mis clientes una experiencia positiva y satisfactoria mientras enfrento cada desafío con entusiasmo y dedicación.</li>
+                  Estoy comprometido en ofrecer soluciones personalizadas y orientadas al cliente, brindando un servicio
+                  profesional y confiable. Mi objetivo es proporcionar a mis clientes una experiencia positiva y
+                  satisfactoria mientras enfrento cada desafío con entusiasmo y dedicación.</li>
               </ul>
             </div>
           </div>
@@ -224,7 +243,7 @@
     </section><!-- End Resume Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact animate-on-scroll slide-up">
       <div class="container">
 
         <div class="section-title">
@@ -283,7 +302,8 @@
 
   </main><!-- End #main -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -295,6 +315,10 @@
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+    <!-- Custom JavaScript for Scroll Animations -->
+    <script src="scroll-animations.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
